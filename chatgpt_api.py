@@ -2,7 +2,7 @@ import os
 import openai
 import json
 
-openai_key = "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"
+openai_key = "***********"
 openai.api_key = os.environ.get("OPENAI_API_KEY", openai_key)
 
 combined_lyrics2 = open("combined_final.txt", "a+")
